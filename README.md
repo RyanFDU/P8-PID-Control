@@ -62,7 +62,7 @@ PID control is a technique to correct vehicle steering Angle, throttle threshold
 
 In the Udacity automotive simulator, the CTE value is read from the data message sent by the simulator, and the PID controller updates the error value and predicts the steering angle based on the total error.
 
-*PID formula and process (image from Wikipedia):*
+***PID formula and process (image from Wikipedia):***
 
 ![img2]
 ![img3]
