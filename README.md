@@ -123,7 +123,7 @@ The most important part of the project is to tune the hyperparameters. This can 
 
 ![img5]
 
-The result of manual turning is {0.10000, 0.00050, 1.50000}
+The result of manual turning is {0.15000, 0.00100, 1.50000}
 
 **3. Twiddle**
 
@@ -162,6 +162,6 @@ The result of twiddle turning is {0.155, 0.0011, 1.691}
 
 ### Discussion
 
-1. The less tolerance is set, the more simulator loops are needed and the more time is required. Is there any way to save time?
+1. The less tolerance is set, the more simulator loops are needed and the more time is required. In order to save GPU time, I only set a tolerance of 0.1 when `is_twiddle == true`. Is there any way to balance the accuracy and time cost?
 
 2. Speed and throttle can also be added to PID control.
